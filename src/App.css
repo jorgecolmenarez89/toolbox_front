@@ -1,0 +1,23 @@
+.App {
+  width: 100%;
+}
+
+.table .thead-dark th {
+  color: #fff;
+  background-color: #212529;
+  border-color: #32383e;
+}
+
+.loader{
+  position: absolute;
+  background: rgba(0,0,0,0.1);
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
